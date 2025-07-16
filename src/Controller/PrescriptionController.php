@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
-#[Route('/prescription')]
+#[Route('/')]
 final class PrescriptionController extends AbstractController
 {
     #[Route(name: 'app_prescription_index', methods: ['GET'])]
